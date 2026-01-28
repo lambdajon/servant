@@ -60,12 +60,16 @@
                 haskellFormatter
                 haskellLinter
                 nixFormatter
+                pkg-config
+
               ]
               ++ (
                 if tutorial then
                   [
                     docstuffs
                     postgresql
+                    pkg-config
+
                   ]
                 else
                   [ ]
