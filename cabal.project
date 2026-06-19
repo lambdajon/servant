@@ -51,7 +51,7 @@ packages:
   -- doc/cookbook/open-id-connect
   doc/cookbook/managed-resource
   doc/cookbook/infinite-streams
-  doc/cookbook/openapi3
+  -- doc/cookbook/openapi3 -- Disabled until openapi3 starts accepting insert-ordered-containers-0.3
   doc/cookbook/expose-prometheus
 
 tests: True
@@ -79,3 +79,11 @@ if(impl(ghc >= 9.6.1))
 
   package lzma
     flags: -pkgconfig
+
+-- Per March 2026, the ecosystem has not fully migrated to 'ram' yet,
+-- see https://github.com/commercialhaskell/lts-haskell/issues/409
+-- Change this to exclude 'memory' instead when the ecosystem is ready.
+constraints: ram < 0
+
+-- Allow QuickCheck-2.18
+allow-newer: swagger2:QuickCheck
