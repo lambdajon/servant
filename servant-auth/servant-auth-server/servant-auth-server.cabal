@@ -1,6 +1,6 @@
 cabal-version:  2.2
 name:           servant-auth-server
-version:        0.4.9.2
+version:        0.4.10.0
 synopsis:       servant-server/servant-auth compatibility
 description:    This package provides the required instances for using the @Auth@ combinator
                 in your 'servant' server.
@@ -18,7 +18,7 @@ license:        BSD-3-Clause
 license-file:   LICENSE
 tested-with:    GHC ==9.2.8 || ==9.4.8 || ==9.6.6 || ==9.8.4 || ==9.10.1 || ==9.12.1
 build-type:     Simple
-extra-source-files:
+extra-doc-files:
     CHANGELOG.md
 
 source-repository head
@@ -46,7 +46,7 @@ library
     , monad-time              >= 0.3.1.0  && < 0.5
     , mtl                     ^>= 2.2.2   || ^>= 2.3.1
     , servant                 >= 0.20.3   && < 0.21
-    , servant-auth            == 0.4.9.2
+    , servant-auth            == 0.4.10.0
     , servant-server          >= 0.20.3   && < 0.21
     , tagged                  >= 0.8.4    && < 0.9
     , text                    >= 1.2.3.0  && < 2.2

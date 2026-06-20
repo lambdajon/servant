@@ -1,6 +1,6 @@
 cabal-version:  2.2
 name:           servant-auth
-version:        0.4.9.2
+version:        0.4.10.0
 synopsis:       Authentication combinators for servant
 description:    This package provides an @Auth@ combinator for 'servant'. This combinator
                 allows using different authentication schemes in a straightforward way,
@@ -20,7 +20,7 @@ license:        BSD-3-Clause
 license-file:   LICENSE
 tested-with:    GHC ==9.2.8 || ==9.4.8 || ==9.6.6 || ==9.8.4 || ==9.10.1 || ==9.12.1
 build-type:     Simple
-extra-source-files:
+extra-doc-files:
     CHANGELOG.md
 
 source-repository head

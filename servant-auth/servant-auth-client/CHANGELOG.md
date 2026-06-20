@@ -7,6 +7,11 @@ and this project adheres to [PVP Versioning](https://pvp.haskell.org/).
 
 ## [Unreleased]
 
+## [0.4.10.0] - 2026-06-20
+
+- Support for 'ram' dependency. [#1888](https://github.com/haskell-servant/servant/pull/1888)
+- Bump lower dependency bounds. [#1876](https://github.com/haskell-servant/servant/pull/1876)
+
 ## [0.4.2.0] - 2024-08-28
 
 - Allow newer versions of dependencies (QuickCheck, jose, warp, bytestring, etc.) and compiler.
