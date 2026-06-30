@@ -5,6 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [PVP Versioning](https://pvp.haskell.org/).
 
+## [0.4.10.0] - 2026-06-20
+
+- Support for 'ram' dependency. [#1888](https://github.com/haskell-servant/servant/pull/1888)
+- Bump lower dependency bounds. [#1876](https://github.com/haskell-servant/servant/pull/1876)
+
 ## [0.4.9.1] - 2025-07-03
 
 - Use data-default instead of data-default-class [#1796](https://github.com/haskell-servant/servant/pull/1796)

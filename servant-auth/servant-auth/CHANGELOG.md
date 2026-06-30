@@ -7,6 +7,11 @@ and this project adheres to [PVP Versioning](https://pvp.haskell.org/).
 
 ## [Unreleased]
 
+## [0.4.10.0] - 2026-06-20
+
+- Support for 'ram' dependency. [#1888](https://github.com/haskell-servant/servant/pull/1888)
+- Bump lower dependency bounds. [#1876](https://github.com/haskell-servant/servant/pull/1876)
+
 ## [0.4.0.0] - 2020-10-06
 
 - Support for GHC 8.10 by @domenkozar
